@@ -1,6 +1,6 @@
 define(['backbone'], function(Backbone) {
 
-    var GridModel = Backbone.Model.extend({
+    return Backbone.Model.extend({
 
 	sortkeyDelimiter: '    ',
 
@@ -12,5 +12,5 @@ define(['backbone'], function(Backbone) {
 	}
     });
 
-    return GridModel;
+   
 });

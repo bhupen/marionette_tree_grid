@@ -1,6 +1,6 @@
 define(['backbone', 'gridmodel'], function(Backbone, GridModel) {
 
-    var GridCollection = Backbone.Collection.extend({
+    return Backbone.Collection.extend({
 
         model: GridModel,
 
@@ -39,5 +39,5 @@ define(['backbone', 'gridmodel'], function(Backbone, GridModel) {
 
     });
 
-    return GridCollection;
+
 });

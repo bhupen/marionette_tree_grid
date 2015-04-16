@@ -3,7 +3,7 @@ define([
     'gridmodel'
 ], function(Marionette, GridModel) {
 
-    var GridRowView = Marionette.ItemView.extend({
+    return Marionette.ItemView.extend({
         model: GridModel,
         events: {
             'click .open-me': 'openFolder',
@@ -70,5 +70,5 @@ define([
         }
     });
 
-    return GridRowView;
+
 });

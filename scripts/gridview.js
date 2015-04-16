@@ -3,7 +3,7 @@ define([
     'gridrowview'
 ], function(Marionette, GridRowView) {
 
-    var GridView = Marionette.CompositeView.extend({
+    return Marionette.CompositeView.extend({
         template: '#gridview_template',
         childViewContainer: "tbody",
         childView: GridRowView,
@@ -38,5 +38,5 @@ define([
 	}
     });
 
-    return GridView;
+
 });

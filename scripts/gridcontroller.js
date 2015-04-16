@@ -11,7 +11,7 @@ define([
     var chance = new Chance();
 
     // Creates and manages a single instance of GridView
-    var GridController = Marionette.Controller.extend({
+    return Marionette.Controller.extend({
 
         initialize: function () {
             var that = this;
@@ -58,5 +58,5 @@ define([
         }
     });
 
-    return GridController;
+
 });
