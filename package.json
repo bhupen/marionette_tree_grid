@@ -1,0 +1,19 @@
+{
+  "name": "marionette_tree_grid",
+  "version": "0.0.0",
+  "description": "marionette_tree_grid.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhupen/marionette_tree_grid.git"
+  },
+  "author": "bhupen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhupen/marionette_tree_grid/issues"
+  },
+  "homepage": "https://github.com/bhupen/marionette_tree_grid.git"
+}
